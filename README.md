@@ -22,3 +22,9 @@
 `rm -R venv`
 
 Good practice to make environment named `venv` within each project directory
+
+For creating requirements.txt
+`pip freeze > requirements.txt`
+
+To install dependencies from requirements.txt
+`pip install -r requirements.txt`
