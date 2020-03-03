@@ -4,8 +4,8 @@
 
 1) Creating 
 
-`python3 -m [env name]` 
-`python3 -m venv`
+`python3 -m venv [env name]` 
+`python3 -m venv venv`
 
 2) Activating
 
