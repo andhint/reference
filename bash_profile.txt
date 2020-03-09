@@ -1,0 +1,11 @@
+# source bash profile
+alias srb='source ~/.bash_profile'
+
+# edit bash profile with vim
+alias edb='vim ~/.bash_profile'
+
+# create project directory structure
+mkproject () { command mkdir $@ && cd $@ && mkdir src data && cd data && mkdir raw interim processed geo && cd ..; }
+
+# copy something to clipboard
+alias myalias='printf "text to copy to clipboard" | pbcopy'
