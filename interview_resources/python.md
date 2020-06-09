@@ -29,6 +29,7 @@ my_str.islower() = False # checks if all characters are lowercase
 my_str.isupper() = False # checks if all characters are uppercase
 my_str.isnumeric() = False # checks if all characters are numeric
 
+# join / split / replace
 ' '.join(['these', 'are', 'words']) = 'these are words'
 'these are words'.split() = ['these', 'are', 'words'] # split on whitespace
 'banana'.split('a') = ['b', 'n', 'n', ''] # split on 'a'
@@ -40,6 +41,30 @@ my_str.isnumeric() = False # checks if all characters are numeric
 # Floats
 
 # Lists
+```
+my_list[i:j:z] # i -> starting index, j -> ending index, z -> stride
+
+[0, 1, 'a'][0] = 0 # get first element
+[0, 1, 'a'][-1] = 'a' # get last element
+[0, 1, 'a', 5.0, 'f'][2:4] = ['a', 5.0] # elements between position 2 (inclusive) and 4(exclusive)
+[0, 1, 2, 3, 4][3:] = [3, 4] # elements from position 3 to the end
+[0, 1, 2, 3, 4][::2] = [0, 2, 4] # every other element
+[0, 1, 2, 3, 4][0:4:2] = [0, 2] # elements from position 0 to 4, taking every other element
+[0, 1, 2, 3, 4][::-1] = [4, 3, 2, 1, 0] # reverse list
+[1,2] * 2 = [1, 2, 1, 2] # multiply list
+
+my_list = [1, 2, 3, 4]
+my_list.pop() = 4 # pop removes last item in list my_list now equals [1, 2, 3]
+[1, 2, 3, 4].pop(2) = 3 # removes element at specified index
+
+# can also use delete
+my_list = [1, 2, 3, 4]
+del my_list[1:3] # my_list = [1,4]
+
+# appending
+my_list = [1, 2]
+my_list.append(3) = [1, 2, 3]
+```
 
 # Booleans
 
