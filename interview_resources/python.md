@@ -77,6 +77,12 @@ my_dict = {'a':1, 'b': 2, 'c': 3}
 # iterating through dict
 for key, value in my_dict.items():
     print(key, value)
+
+# removing item w/ pop (pop will return removed value unlike del)
+my_dict.pop('b') # supplying a key is required
+
+# removing item w/ del
+del my_dict['b']
 ```
 
 
