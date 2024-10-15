@@ -71,4 +71,12 @@ my_list.append(3) = [1, 2, 3]
 # Tuples
 
 # Dictionaries
+```
+my_dict = {'a':1, 'b': 2, 'c': 3}
+
+# iterating through dict
+for key, value in my_dict.items():
+    print(key, value)
+```
+
 
